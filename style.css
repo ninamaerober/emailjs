@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    padding: 20px;
+    background-image: url(cuteeee.webp);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    background-color: lightgray;
+    border-radius: 8px;
+    padding: 50px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+button:hover {
+    background-color: lightgrey;
+}
+
+h2 {
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+}
+
+pre {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 30px auto;
+    white-space: pre-wrap;
+}
